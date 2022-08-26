@@ -73,6 +73,14 @@ section {
    font-family: 'Poppins', sans-serif;
 }
 
+.heading h4 {
+   font-size: 2rem;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: underline;
+   text-transform: lowercase;
+   color: rgb(82, 82, 82);
+}
+
 .btn {
    display: inline-block;
    margin-top: 1rem;
@@ -316,14 +324,14 @@ section {
    color: #333;
 }
 
-.gallery .box-container {
+.reviews .box-container {
    display: grid;
    grid-template-columns: repeat(auto-fit, 33rem);
    gap: 1.5rem;
    justify-content: center;
 }
 
-.gallery .box-container .review {
+.reviews .box-container .review {
    grid-template-columns: repeat(auto-fit, 30rem);
    gap: 2rem;
    align-items: flex-start;
@@ -331,49 +339,51 @@ section {
    height: 37rem;
 }
 
-.gallery .box-container .review .review_header {
+.reviews .box-container .review .review_header {
    justify-content: center;
    margin-bottom: 1rem;
 }
 
-.gallery .box-container .review .review_header img {
+.reviews .box-container .review .review_header img {
    width: 25%;
+   border-radius: 50%;
 }
 
-.gallery .box-container .review .review_header h3 {
+.reviews .box-container .review .review_header h3 {
    font-size: 2rem;
    text-decoration: underline;
 }
 
-.gallery .box-container .review p {
+.reviews .box-container .review p {
    font-size: 1.3rem;
    text-align: justify;
 }
 
-/* .gallery .box-container img {
+/* .reviews .box-container img {
    height: 100%;
    width: 100%;
    object-fit: cover;
 } */
 
-.team .box-container {
+.founders .box-container {
    display: grid;
    grid-template-columns: repeat(auto-fit, 33rem);
    gap: 1.5rem;
    justify-content: center;
 }
 
-.team .box-container .box {
+.founders .box-container .box {
    text-align: center;
 }
 
-.team .box-container .box img {
+.founders .box-container .box img {
    width: 70%;
    object-fit: cover;
    margin-bottom: .5rem;
+   border-radius: 50%;
 }
 
-.team .box-container .box h3 {
+.founders .box-container .box h3 {
    font-size: 2rem;
    color: var(--black);
 }
