@@ -2,4 +2,4 @@
 
 This is the repository of our website codes
 
-Visit our [website](https://www.generationofcodestars.com)
+Visit our Website: [Generation of Codestars](https://www.generationofcodestars.com)
